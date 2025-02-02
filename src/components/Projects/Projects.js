@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import foodmania from '../../Assets/Projects/FoodMania.png'
 import blogmania from '../../Assets/Projects/BlogMania.png'
 import employeeAdmin from '../../Assets/Projects/EmployeeAdmin.png'
+import expenseMania from '../../Assets/Projects/ExpenseMania.png'
 
 function Projects() {
   return (
@@ -29,6 +30,18 @@ function Projects() {
                           Developed a robust cart solution for food ordering, incorporating real-time item management where user can add, remove, update quantities of items.
                           Included a functionality to estimate delivery time based on user location, including distance validation, and integrated PDF generation for generating invoices related to both bookings and food orders."
               demoLink="https://hotel-food-mania.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expenseMania}
+              isBlog={false}
+              title="ExpenseMania"
+              description="ExpenseMania is a full-stack expense management application that enables users to track their financial activities efficiently. It offers secure authentication using JWT tokens, allowing users to register, log in, and log out seamlessly.
+
+              Users can add, update, delete, and view their expenses with category-wise filtering for better financial management. The platform also includes data visualization through interactive bar and pie charts, providing insights into spending patterns."
+              demoLink="https://expense-mania-tracker.vercel.app/"
             />
           </Col>
 
